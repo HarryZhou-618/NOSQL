@@ -1,0 +1,38 @@
+{
+  "counter": [
+    {
+      "name": "numcount",
+      "index": 1,
+      "key": "count",
+      "value": 1,
+      "type": "num"
+    },
+
+    {
+      "name": "freqcount",
+      "index": 2,
+      "key": "freq",
+      "value": 1,
+      "type": "zset",
+      "beginTime": "2020-12-8 00:00:00",
+      "endTime": "2020-12-9 00:00:00"
+    },
+
+    {
+      "name": "desccount",
+      "index": 3,
+      "key": "desc",
+      "value": 1,
+      "type": "string"
+    },
+
+    {
+      "name": "logcount",
+      "index": 4,
+      "key": "log",
+      "value": 1,
+      "type": "list"
+    }
+
+  ]
+}

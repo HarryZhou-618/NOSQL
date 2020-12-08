@@ -1,0 +1,60 @@
+{
+  "action": [
+    {
+      "name": "incrcount",
+      "index": 1,
+      "operation": "write",
+      "counter": [
+        {"cname": "numcount"},
+        {"cname": "freqcount"},
+        {"cname": "logcount"}
+      ]
+    },
+
+    {
+      "name": "getcount",
+      "index": 2,
+      "operation": "read",
+      "counter": [
+        {"cname": "numcount"}
+      ]
+    },
+
+    {
+      "name": "getfreq",
+      "index": 3,
+      "operation": "read",
+      "counter": [
+        {"cname": "freqcount"}
+      ]
+    },
+
+    {
+      "name": "getdesc",
+      "index": 4,
+      "operation": "read",
+      "counter": [
+        {"cname": "desccount"}
+      ]
+    },
+
+    {
+      "name": "setdesc",
+      "index": 5,
+      "operation": "write",
+      "counter": [
+        {"cname": "desccount"},
+        {"cname": "logcount"}
+      ]
+    },
+
+    {
+      "name": "getlog",
+      "index": 6,
+      "operation": "read",
+      "counter": [
+        {"cname": "logcount"}
+      ]
+    }
+  ]
+}
