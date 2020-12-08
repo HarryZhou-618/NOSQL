@@ -76,7 +76,6 @@ action和counter数据都使用json存储，两种数据的格式示例如下：
         {"cname": "logcount"}
       ]
     },
-    ...
 ]
 ```
 
@@ -93,7 +92,6 @@ action和counter数据都使用json存储，两种数据的格式示例如下：
       "value": 1,
       "type": "num"
     },
-    ...
 ]
 ```
 
@@ -134,7 +132,7 @@ action和counter数据都使用json存储，两种数据的格式示例如下：
       "name": "numcount",
       "index": 1,
       "key": "count",
-      "value": 1,		//计数数量
+      "value": 1,
       "type": "num"
 },
 ```
@@ -148,8 +146,8 @@ action和counter数据都使用json存储，两种数据的格式示例如下：
       "key": "freq",
       "value": 1,
       "type": "zset",
-      "beginTime": "2020-12-8 00:00:00",	//开始时间
-      "endTime": "2020-12-9 00:00:00"		//结束时间
+      "beginTime": "2020-12-8 00:00:00",
+      "endTime": "2020-12-9 00:00:00"
 },
 ```
 
